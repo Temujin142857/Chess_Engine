@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Chess_Engine:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8ab48c41-58c3-4728-acd1-440da9d1c15a" name="Changes" comment="did a ton of modification&#10;Plan A is now to not use machine learning&#10;ready to start debugging&#10;modified and corrected the can move methods of the pieces&#10;added a canmove method to the board&#10;set up the minimax traversal&#10;set up the evaluation function&#10;set up the controller method for those&#10;working on debugging via the controller method&#10;then will add the alpha beta component">
+      <change afterPath="$PROJECT_DIR$/src/Engine/AlphaBeta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Engine/MachineLearning/DataMaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Engine/MachineLearning/Evaluation_Machine_Learning_Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Engine/MachineLearning/Evaluator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chess_Engine.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Chess_Engine.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datafile" beforeDir="false" afterPath="$PROJECT_DIR$/datafile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/master_games.pgn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess_Engine/Chess_Board/Chess_Set/Board.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess_Engine/Chess_Board/Chess_Set/Board.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess_Engine/Chess_Board/Chess_Set/NoKingException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess_Engine/Chess_Board/Chess_Set/Pieces_Classes/BPawn.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess_Engine/Chess_Board/Chess_Set/Pieces_Classes/BPawn.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess_Engine/Chess_Board/Chess_Set/Pieces_Classes/Bishop.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess_Engine/Chess_Board/Chess_Set/Pieces_Classes/Bishop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess_Engine/Chess_Board/Chess_Set/Pieces_Classes/EMPTY.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess_Engine/Chess_Board/Chess_Set/Pieces_Classes/EMPTY.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess_Engine/Chess_Board/Chess_Set/Pieces_Classes/King.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess_Engine/Chess_Board/Chess_Set/Pieces_Classes/King.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess_Engine/Chess_Board/Chess_Set/Pieces_Classes/Knight.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess_Engine/Chess_Board/Chess_Set/Pieces_Classes/Knight.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess_Engine/Chess_Board/Chess_Set/Pieces_Classes/Piece.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess_Engine/Chess_Board/Chess_Set/Pieces_Classes/Piece.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess_Engine/Chess_Board/Chess_Set/Pieces_Classes/Queen.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess_Engine/Chess_Board/Chess_Set/Pieces_Classes/Queen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess_Engine/Chess_Board/Chess_Set/Pieces_Classes/Rook.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess_Engine/Chess_Board/Chess_Set/Pieces_Classes/Rook.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess_Engine/Chess_Board/Chess_Set/Pieces_Classes/WPawn.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess_Engine/Chess_Board/Chess_Set/Pieces_Classes/WPawn.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess_Engine/Chess_Board/GUI$MouseListenerForPromotion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess_Engine/Chess_Board/GUI$MouseListenerForPromotion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess_Engine/Chess_Board/GUI$MouseListenerForSquares.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess_Engine/Chess_Board/GUI$MouseListenerForSquares.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess_Engine/Chess_Board/GUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess_Engine/Chess_Board/GUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess_Engine/Chess_Board/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess_Engine/Chess_Board/Player.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess_Engine/Engine/Player_Engine$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess_Engine/Engine/Player_Engine$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess_Engine/Engine/Player_Engine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess_Engine/Engine/Player_Engine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess_Engine/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess_Engine/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chess_Board/Chess_Set/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chess_Board/Chess_Set/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chess_Board/Chess_Set/NoKingException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chess_Board/Chess_Set/Pieces_Classes/BPawn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chess_Board/Chess_Set/Pieces_Classes/BPawn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chess_Board/Chess_Set/Pieces_Classes/Bishop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chess_Board/Chess_Set/Pieces_Classes/Bishop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chess_Board/Chess_Set/Pieces_Classes/EMPTY.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chess_Board/Chess_Set/Pieces_Classes/EMPTY.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chess_Board/Chess_Set/Pieces_Classes/King.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chess_Board/Chess_Set/Pieces_Classes/King.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chess_Board/Chess_Set/Pieces_Classes/Knight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chess_Board/Chess_Set/Pieces_Classes/Knight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chess_Board/Chess_Set/Pieces_Classes/Piece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chess_Board/Chess_Set/Pieces_Classes/Piece.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chess_Board/Chess_Set/Pieces_Classes/Queen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chess_Board/Chess_Set/Pieces_Classes/Queen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chess_Board/Chess_Set/Pieces_Classes/Rook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chess_Board/Chess_Set/Pieces_Classes/Rook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chess_Board/Chess_Set/Pieces_Classes/WPawn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chess_Board/Chess_Set/Pieces_Classes/WPawn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chess_Board/GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chess_Board/GUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chess_Board/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chess_Board/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Engine/Player_Engine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Engine/Player_Engine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src/Chess_Board" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="0hkka7oo" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="2PUckGRX85qtpYmGG4mUsuPiVfl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Temuj\Programming\Java\Chess_Engine\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Temuj\Programming\Java\Chess_Engine\src\Engine\MachineLearning" />
+      <recent name="C:\Users\Temuj\Programming\Java\Chess_Engine\src\Engine" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Chess_Engine" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8ab48c41-58c3-4728-acd1-440da9d1c15a" name="Changes" comment="" />
+      <created>1683515242761</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1683515242761</updated>
+    </task>
+    <task id="LOCAL-00001" summary="tesint">
+      <created>1683515278026</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1683515278026</updated>
+    </task>
+    <task id="LOCAL-00002" summary="halfway through day 1&#10;downloaded javaml, added to the project&#10;tried working with one set of data, turns out it was too large, explored options to handle the data, decided making my own dataset might be a better option">
+      <created>1683586935300</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1683586935300</updated>
+    </task>
+    <task id="LOCAL-00003" summary="forgot to add the unversioned files I think">
+      <created>1683586970273</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1683586970273</updated>
+    </task>
+    <task id="LOCAL-00004" summary="setup an option to make the datafile myself">
+      <created>1683591967620</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1683591967620</updated>
+    </task>
+    <task id="LOCAL-00005" summary="did a ton of modification&#10;Plan A is now to not use machine learning&#10;ready to start debugging&#10;modified and corrected the can move methods of the pieces&#10;added a canmove method to the board&#10;set up the minimax traversal&#10;set up the evaluation function&#10;set up the controller method for those&#10;working on debugging via the controller method&#10;then will add the alpha beta component">
+      <created>1683693666373</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1683693666373</updated>
+    </task>
+    <task id="LOCAL-00006" summary="did a ton of modification&#10;Plan A is now to not use machine learning&#10;ready to start debugging&#10;modified and corrected the can move methods of the pieces&#10;added a canmove method to the board&#10;set up the minimax traversal&#10;set up the evaluation function&#10;set up the controller method for those&#10;working on debugging via the controller method&#10;then will add the alpha beta component">
+      <created>1683693684812</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1683693684812</updated>
+    </task>
+    <task id="LOCAL-00007" summary="did a ton of modification&#10;Plan A is now to not use machine learning&#10;ready to start debugging&#10;modified and corrected the can move methods of the pieces&#10;added a canmove method to the board&#10;set up the minimax traversal&#10;set up the evaluation function&#10;set up the controller method for those&#10;working on debugging via the controller method&#10;then will add the alpha beta component">
+      <created>1684176458522</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1684176458522</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="tesint" />
+    <MESSAGE value="halfway through day 1&#10;downloaded javaml, added to the project&#10;tried working with one set of data, turns out it was too large, explored options to handle the data, decided making my own dataset might be a better option" />
+    <MESSAGE value="forgot to add the unversioned files I think" />
+    <MESSAGE value="setup an option to make the datafile myself" />
+    <MESSAGE value="did a ton of modification&#10;Plan A is now to not use machine learning&#10;ready to start debugging&#10;modified and corrected the can move methods of the pieces&#10;added a canmove method to the board&#10;set up the minimax traversal&#10;set up the evaluation function&#10;set up the controller method for those&#10;working on debugging via the controller method&#10;then will add the alpha beta component" />
+    <option name="LAST_COMMIT_MESSAGE" value="did a ton of modification&#10;Plan A is now to not use machine learning&#10;ready to start debugging&#10;modified and corrected the can move methods of the pieces&#10;added a canmove method to the board&#10;set up the minimax traversal&#10;set up the evaluation function&#10;set up the controller method for those&#10;working on debugging via the controller method&#10;then will add the alpha beta component" />
+  </component>
+</project>
