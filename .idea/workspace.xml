@@ -10,33 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8ab48c41-58c3-4728-acd1-440da9d1c15a" name="Changes" comment="did a ton of modification&#10;Plan A is now to not use machine learning&#10;ready to start debugging&#10;modified and corrected the can move methods of the pieces&#10;added a canmove method to the board&#10;set up the minimax traversal&#10;set up the evaluation function&#10;set up the controller method for those&#10;working on debugging via the controller method&#10;then will add the alpha beta component">
-      <change afterPath="$PROJECT_DIR$/src/Engine/AlphaBeta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Engine/MachineLearning/DataMaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Engine/MachineLearning/Evaluation_Machine_Learning_Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Engine/MachineLearning/Evaluator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chess_Engine.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Chess_Engine.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datafile" beforeDir="false" afterPath="$PROJECT_DIR$/datafile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/master_games.pgn" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Chess_Engine/Chess_Board/Chess_Set/Board.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess_Engine/Chess_Board/Chess_Set/Board.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Chess_Engine/Chess_Board/Chess_Set/NoKingException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Chess_Engine/Chess_Board/Chess_Set/Pieces_Classes/BPawn.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess_Engine/Chess_Board/Chess_Set/Pieces_Classes/BPawn.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Chess_Engine/Chess_Board/Chess_Set/Pieces_Classes/Bishop.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess_Engine/Chess_Board/Chess_Set/Pieces_Classes/Bishop.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Chess_Engine/Chess_Board/Chess_Set/Pieces_Classes/EMPTY.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess_Engine/Chess_Board/Chess_Set/Pieces_Classes/EMPTY.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Chess_Engine/Chess_Board/Chess_Set/Pieces_Classes/King.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess_Engine/Chess_Board/Chess_Set/Pieces_Classes/King.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Chess_Engine/Chess_Board/Chess_Set/Pieces_Classes/Knight.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess_Engine/Chess_Board/Chess_Set/Pieces_Classes/Knight.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Chess_Engine/Chess_Board/Chess_Set/Pieces_Classes/Piece.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess_Engine/Chess_Board/Chess_Set/Pieces_Classes/Piece.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Chess_Engine/Chess_Board/Chess_Set/Pieces_Classes/Queen.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess_Engine/Chess_Board/Chess_Set/Pieces_Classes/Queen.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Chess_Engine/Chess_Board/Chess_Set/Pieces_Classes/Rook.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess_Engine/Chess_Board/Chess_Set/Pieces_Classes/Rook.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Chess_Engine/Chess_Board/Chess_Set/Pieces_Classes/WPawn.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess_Engine/Chess_Board/Chess_Set/Pieces_Classes/WPawn.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Chess_Engine/Chess_Board/GUI$MouseListenerForPromotion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess_Engine/Chess_Board/GUI$MouseListenerForPromotion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Chess_Engine/Chess_Board/GUI$MouseListenerForSquares.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess_Engine/Chess_Board/GUI$MouseListenerForSquares.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Chess_Engine/Chess_Board/GUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess_Engine/Chess_Board/GUI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Chess_Engine/Chess_Board/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess_Engine/Chess_Board/Player.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Chess_Engine/Engine/Player_Engine$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess_Engine/Engine/Player_Engine$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Chess_Engine/Engine/Player_Engine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess_Engine/Engine/Player_Engine.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Chess_Engine/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess_Engine/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chess_Board" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chess_Board" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Chess_Board/Chess_Set/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chess_Board/Chess_Set/Board.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Chess_Board/Chess_Set/NoKingException.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Chess_Board/Chess_Set/Pieces_Classes/BPawn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chess_Board/Chess_Set/Pieces_Classes/BPawn.java" afterDir="false" />
@@ -50,8 +25,6 @@
       <change beforePath="$PROJECT_DIR$/src/Chess_Board/Chess_Set/Pieces_Classes/WPawn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chess_Board/Chess_Set/Pieces_Classes/WPawn.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Chess_Board/GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chess_Board/GUI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Chess_Board/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chess_Board/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Engine/Player_Engine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Engine/Player_Engine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
